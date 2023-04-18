@@ -7,6 +7,12 @@
         <clobbers target="OneTrust" />
         <merges target="cordova.plugins.OneTrust" />
     </js-module>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    
+    <!-- iOS -->
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
             <feature name="OneTrust">
@@ -22,6 +28,8 @@
         </pods>
     </podspec>
     </platform>
+    
+    <!--Android -->
     <platform name="android">
         <framework src="com.onetrust.cmp:native-sdk:202303.2.0.0" />
         <framework src="androidx.appcompat:appcompat:1.2.0" />
