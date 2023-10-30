@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-onetrust-cmp" version="202306.1.0"
+<plugin id="cordova-plugin-onetrust-cmp" version="202307.1.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>OneTrust</name>
@@ -24,7 +24,7 @@
         <config>
         </config>
         <pods use-frameworks="true">
-            <pod name="OneTrust-CMP-XCFramework" spec="~> 202307.1.0.0" />
+            <pod name="OneTrust-CMP-XCFramework" spec="~> 202306.1.0.0" />
         </pods>
     </podspec>
     </platform>
